@@ -1,60 +1,115 @@
 /* Style the header */
 
+* { box-sizing: border-box;}
+
 header {
-  width: 30rem;
-  padding: 3rem;
-  border: 20px solid #58321d;
-  border-radius: 20px;
-  margin: auto
-}
-    
-header img {
-  width: 30rem;
+  background-color: #D1833F;
+  /*position: fixed;*/
+  width: 100%;
+  min-width: 800px;
 }
 
-    
-header h1 {
+header img {
+  display: block;
+  margin: auto;
+  padding: 1rem;
+}
+
+ header li {
+  float: left;
+  font-size: 2rem;
+  min-width: 33.33%;
+  text-align: center;
+  background-color: #5184B0;  
+}
+
+.right-border {
+  border-right: 4px solid black;
+}
+
+h1 {
   text-align: center;
   color: #311FD1;
+  font-family: inder;
+  padding: .5rem;
 }
     
 /* Style the intro paragraph */
 
-p.intro {
+aside {
+  float: right;
+  width: 40%;
+  font-family: philosopher;
+  font-size: 2.2rem;
+}
+
+aside img {
+  display: block;
+  width: 500px;
+  height: 325px;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  }
+
+aside p {
+  width: 90%;
+  min-width: 500px;
   text-align: center;
-  font-size: 2rem;
-  width: 50rem;
-  padding: 3rem;
-  margin: auto
+  padding: 1rem;
+  margin: auto;
 }
 
 /* Center all h2 headings */
 
 h2 {
   text-align: center;
+  color: #311FD1;
+  font-family: inder;
+  margin: 1rem;
 }
 
 /* Style the portfolio sections */
 
-article.portfolio-entries {
-  width: 45rem;
+.portfolio {
+  float: left;
+  width: 60%;
   padding: 1rem;
   margin: auto;
+  background-color: cadetblue;
 }
   
-section {
-  width: inherit;
-  padding: inherit;
+.portfolio-entries {
+  float: left;
+  width: 45%;
   border: 3px solid #58321d;
-  margin-bottom: 1rem;
+  margin: 1rem;
+  min-height: 400px;
   background-color: beige;
 }
 
-section p {
-  font-size: 1.2rem;
+.portfolio-entries img {
+  display: block;
+  margin: auto;
+  margin-bottom: 1rem;
 }
 
-/* Style link behavior */
+.portfolio-entries a:link {
+  font-size: 1.3rem;
+}
+
+.portfolio-entries p {
+  text-align: center;
+}
+
+.portfolio-description {
+  font-size: 1.4rem;
+  font-family: philosopher;
+  text-align: center;
+  margin: 1rem;
+}
+
+/* Style link behavior*/
 a:link {
   text-decoration: none;
 }
@@ -66,7 +121,9 @@ a:hover {
 /* Style the footer */
 
 footer {
+  clear: both;
   text-align: center;
+  background-color: #5184B0;
 }
 
 /* Style the About page */
