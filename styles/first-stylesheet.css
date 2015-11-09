@@ -6,6 +6,7 @@
 header {
   background-color: #D1833F;
   position: fixed;
+  top: 0px;
   width: 100%;
   min-width: 800px;
 }
@@ -138,30 +139,56 @@ footer {
   clear: both;
   text-align: center;
   background-color: #5184B0;
+  padding: 1rem;
 }
 
 /* Style the About page */
 
-article.about {
+.how {
+  clear: both;
+  margin-top: 249px;
+  list-style-type: none;
   font-size: 1.2rem;
-  width: 50rem;
+  font-family: philosopher;
+  background-color: #B0AD51;
   padding: 1rem;
-  border: 3px solid #58321d;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: azure;
+  border-top: 2px solid black;
 }
 
-ul.how {
-  list-style-type: square;
+.how p {
+  width: 70%;
+  margin: auto;
+  padding: 2rem;
+}
+
+.how ul {
+  width: 70%;
+  margin: auto;
+  padding: 1rem;
+  border: 1px solid black;
+}
+
+.about {
+  float: left;
+  font-size: 1.2rem;
+  font-family: philosopher;
+  width: 50%;
+  border-top: 2px solid black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-right-border {
+  border-right: 2px solid black;
+}
+
+.about p {
+  width: 90%;
+  margin: auto;
+  padding: 1rem;
 }
 
 /* Style the Bio page */
-h1 {
-  text-align: center;
-}
 
 article.bio {
   font-size: 1.2rem;
