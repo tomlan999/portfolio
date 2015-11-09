@@ -2,6 +2,7 @@
 
 * { box-sizing: border-box;}
 
+/* Create fixed header with background color, fix width to prevent wrapping */
 header {
   background-color: #D1833F;
   position: fixed;
@@ -15,6 +16,7 @@ header img {
   padding: 1rem;
 }
 
+/* Create menu of links */
  header li {
   float: left;
   font-size: 2rem;
@@ -27,6 +29,7 @@ header img {
   border-right: 4px solid black;
 }
 
+/* Style h1 heading */
 h1 {
   text-align: center;
   color: #311FD1;
@@ -34,7 +37,7 @@ h1 {
   padding: .5rem;
 }
     
-/* Style the intro paragraph */
+/* Images and introductory text floated to the right, set top margin to avoid overlap with header */
 
 aside {
   margin-top: 249px;
@@ -77,7 +80,7 @@ h2 {
   margin: 1rem;
 }
 
-/* Style the portfolio sections */
+/* Float the portfolio section left, set width and background, set top margin to avoid overlap with header */
 
 .portfolio {
   float: left;
@@ -87,6 +90,8 @@ h2 {
   margin-top: 249px;
   background-color: cadetblue;
 }
+
+/* Float each portfolio entry left to create two-up list of entries, style each entry */
   
 .portfolio-entries {
   float: left;
