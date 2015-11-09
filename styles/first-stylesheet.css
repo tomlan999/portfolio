@@ -190,7 +190,7 @@ footer {
 
 /* Style the Bio page */
 
-article.bio {
+.bio {
   font-size: 1.2rem;
   width: 60rem;
   padding: 1rem;
@@ -202,7 +202,27 @@ article.bio {
   background-color: bisque;
 }
 
-article.links {
+.bio p {
+  padding: 1rem;
+  font-family: philosopher;
+}
+
+.bio img {
+  padding: 1rem;
+  width: 300px;
+}
+
+.bio figcaption {
+  padding-left: 1rem;
+  font-family: Oswald;
+}
+
+.bio ol {
+  padding-left: 1rem;
+  font-family: philosopher;
+}
+
+.links {
   width: 60rem;
   padding: 1rem;
   margin-top: 1rem;
@@ -212,11 +232,8 @@ article.links {
   text-align: center;
 }
 
-article.links ul {
+.links ul {
   list-style-type: none;
 }
 
-article.bio img {
-  width: 300px;
-}
 
