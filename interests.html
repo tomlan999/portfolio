@@ -4,6 +4,7 @@
   
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Tom's Other Interests</title>
 
@@ -25,22 +26,32 @@
     <script src="js/bootstrap.min.js"></script>
 
     <header>
-      <h1>Tom's Varied Interests</h1>
-      <img src="images/football.jpg" alt="football">
-      <img src="images/snow.jpg" alt="snow">
-      <img src="images/kerouac-cassidy.jpg" alt="Jack Kerouac and Neal Cassidy">
-      <img src="images/garcia.jpg" alt="Jerry Garcia">
-      <nav>
-        <ul>
-          <li class="right-border"><a href="index.html" target="_blank">Home</a></li>
-          <li class="right-border"><a href="about-us.html" target="_blank">About Us</a></li>
-          <li><a href="tom-bio.html" target="_blank">About Our Founder</a></li>
-        </ul>
-      </nav>
-    
+      <h1 class="text-center">Tom's Varied Interests</h1>
+        <div class="container">
+          <div class="row">
+            <img class="col-md-3" src="images/football.jpg" alt="football" width="240px" height="180px">
+            <img class="col-md-3" src="images/snow.jpg" alt="snow" width="240px" height="180px">
+            <img class="col-md-3" src="images/kerouac-cassidy.jpg" alt="Jack Kerouac and Neal Cassidy" width="240px" height="180px">
+            <img class="col-md-3" src="images/garcia.jpg" alt="Jerry Garcia" width="240px" height="180px">
+          </div>
+        </div>
+      <div class="container">
+        <nav class="navbar navbar-default">
+          <div class="container">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html" target="_blank">Home</a></li>
+            <li><a href="about-us.html" target="_blank">About Us</a></li>
+            <li><a href="tom-bio.html" target="_blank">About Our Founder</a></li>
+            <li><a href="interests.html" target="_blank">Tom's Interests</a></li>
+          </ul>
+          </div>
+        </nav>
+      </div>
     </header>
     
-    <p>Tom is about more than just HTML, CSS and IT Infrastructure.  Keep reading to learn about Tom's interests outside of technology.</p>
+    <div class="text-center">
+      <p class="lead">Tom is about more than just HTML, CSS and IT Infrastructure.  Keep reading to learn about Tom's interests outside of technology.</p>
+      </div>
     
     <article>
       <h2>Sports</h2>
