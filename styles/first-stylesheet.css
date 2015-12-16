@@ -21,7 +21,7 @@ header img {
  header li {
   float: left;
   font-size: 2rem;
-  min-width: 33.33%;
+  min-width: 25%;
   text-align: center;
   background-color: #5184B0;  
 }
